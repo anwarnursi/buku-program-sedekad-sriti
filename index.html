@@ -158,20 +158,6 @@ p{margin:0}
 .lancar h3{font:700 15px var(--f-teks);color:var(--dakwat)}
 .lancar p{font-size:13px;color:var(--kelabu);margin-top:4px}
 
-/* anugerah */
-.anugerah{list-style:none;margin:0;padding:0;display:grid;gap:10px}
-.anugerah li{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;padding:14px 16px;border:1px solid var(--garis);border-radius:3px;background:var(--kertas)}
-.anugerah h3{font:700 14px/1.35 var(--f-teks);color:var(--dakwat);letter-spacing:.02em}
-.anugerah p{font-size:12px;color:var(--kelabu);margin-top:3px}
-.anugerah .bil{text-align:center;font:700 22px/1 var(--f-tajuk);color:var(--emas-tua);min-width:56px}
-.anugerah .bil small{display:block;font:600 9px var(--f-teks);letter-spacing:.16em;color:var(--kelabu);margin-top:4px;text-transform:uppercase}
-.anugerah li.agung{background:var(--zamrud);border-color:var(--zamrud)}
-.anugerah li.agung h3{color:var(--kertas);font-family:var(--f-tajuk);font-size:16px}
-.anugerah li.agung p,.anugerah li.agung .bil small{color:color-mix(in srgb,var(--kertas) 75%,transparent)}
-.anugerah li.agung .bil{color:#E9C979}
-.urutan{font-size:12px;color:var(--kelabu);text-align:center;margin:0 auto 16px;max-width:44ch}
-.rahsia{margin-top:18px;text-align:center;font-size:13px;font-weight:600;color:var(--zamrud)}
-
 /* ajk */
 .ajk{display:grid;grid-template-columns:1fr 1fr;gap:16px 18px}
 .ajk div{min-width:0;border-top:1px solid var(--garis);padding-top:10px}
@@ -209,7 +195,6 @@ p{margin:0}
     <a href="#ucapan">Ucapan</a>
     <a href="#penampilan">Penampilan Khas</a>
     <a href="#pelancaran">Pelancaran</a>
-    <a href="#anugerah">Anugerah</a>
     <a href="#jawatankuasa">Jawatankuasa</a>
     <a href="#penghargaan">Penghargaan</a>
   </div>
@@ -256,7 +241,7 @@ p{margin:0}
     </dl>
     <div class="angka">
       <div><b>10</b><span>Tahun</span></div>
-      <div><b>12</b><span>Anugerah Kualiti</span></div>
+      <div><b>2</b><span>Pelancaran</span></div>
       <div><b>2</b><span>Penampilan Khas</span></div>
     </div>
     <p class="catatan">Pendaftaran dibuka 7.30 malam. Ruang solat Maghrib disediakan sebelum majlis bermula.</p>
@@ -279,7 +264,7 @@ p{margin:0}
       <li data-m="21:45" class="utama"><time>9.45<small>MALAM</small></time><div class="acara"><h3>Gimik pelancaran Sedekad SRITI Selangor</h3><p>Diikuti tayangan video Sedekad SRITI Selangor</p></div></li>
       <li data-m="22:00"><time>10.00<small>MALAM</small></time><div class="acara"><h3>Pelancaran Van Hiace SRITI Selangor</h3><p>Melalui tayangan video</p></div></li>
       <li data-m="22:10" class="utama"><time>10.10<small>MALAM</small></time><div class="acara"><h3>Penampilan khas Soutul Amal <span class="lencana slot">Slot 2</span></h3></div></li>
-      <li data-m="22:30" class="utama"><time>10.30<small>MALAM</small></time><div class="acara"><h3>Anugerah Kualiti SRITI Selangor</h3><p>Penghargaan dan penyampaian cenderahati kepada penaja</p></div></li>
+      <li data-m="22:30" class="utama"><time>10.30<small>MALAM</small></time><div class="acara"><h3>Penyampaian Anugerah Kualiti SRITI Selangor</h3></div></li>
       <li data-m="22:50"><time>10.50<small>MALAM</small></time><div class="acara"><h3>Nyanyian Lagu SRITI dan Lagu Sedekad</h3><p>Diiringi kibaran bendera kecil</p></div></li>
       <li data-m="23:00"><time>11.00<small>MALAM</small></time><div class="acara"><h3>Penutup dan bersurai</h3></div></li>
     </ol>
@@ -351,23 +336,6 @@ p{margin:0}
     <span class="mukasurat">— 5 —</span>
   </section>
 
-  <!-- ANUGERAH -->
-  <section class="helai" id="anugerah" aria-labelledby="h-anugerah">
-    <p class="eyebrow">10.30 Malam</p>
-    <h2 class="tajuk-hal" id="h-anugerah">Anugerah Kualiti SRITI Selangor</h2>
-    <div class="pemisah" aria-hidden="true"><i></i><b></b><i></i></div>
-    <p class="urutan">Dua belas anugerah dalam lima kategori, mengikut urutan penyampaian.</p>
-    <ol class="anugerah">
-      <li><div><h3>Kemenjadian Murid Terbaik</h3><p>Berdasarkan Instrumen 4 dan 5</p></div><div class="bil">3<small>Penerima</small></div></li>
-      <li><div><h3>Kurikulum Terbaik</h3><p>Berdasarkan Instrumen 2 dan 3</p></div><div class="bil">3<small>Penerima</small></div></li>
-      <li><div><h3>Pengurusan Terbaik</h3><p>Berdasarkan Instrumen 1</p></div><div class="bil">3<small>Penerima</small></div></li>
-      <li><div><h3>SRITI Harapan Negeri Selangor</h3><p>Pengiktirafan peringkat negeri</p></div><div class="bil">2<small>Penerima</small></div></li>
-      <li class="agung"><div><h3>SRITI Terbaik Keseluruhan Negeri Selangor</h3><p>Anugerah kemuncak malam ini</p></div><div class="bil">1<small>Penerima</small></div></li>
-    </ol>
-    <p class="rahsia">Nama penerima diumumkan di pentas pada malam majlis.</p>
-    <span class="mukasurat">— 6 —</span>
-  </section>
-
   <!-- JAWATANKUASA -->
   <section class="helai" id="jawatankuasa" aria-labelledby="h-ajk">
     <p class="eyebrow">Sekalung Budi</p>
@@ -391,7 +359,7 @@ p{margin:0}
       <div><dt>Booth Pameran SRITI</dt><dd>Puteri, Zal Hazmi, Amirul Mukminin</dd></div>
       <div><dt>Jamuan dan Kebersihan</dt><dd>Elissa Garden</dd></div>
     </dl>
-    <span class="mukasurat">— 7 —</span>
+    <span class="mukasurat">— 6 —</span>
   </section>
 
   <!-- PENGHARGAAN -->
@@ -399,12 +367,13 @@ p{margin:0}
     <p class="eyebrow">Penghargaan</p>
     <h2 class="tajuk-hal" id="h-terima">Jutaan Terima Kasih</h2>
     <div class="pemisah" aria-hidden="true"><i></i><b></b><i></i></div>
-    <p class="terima">Kepada tetamu kehormat, warga pendidik, pengurusan sekolah, ibu bapa, penaja dan rakan strategik yang menyokong perjalanan sepuluh tahun SRITI Selangor. Semoga sambutan ini menjadi titik tolak kepada dekad seterusnya.</p>
-    <div class="rakan">
+    <p class="terima">Kepada tetamu kehormat, warga pendidik, pengurusan sekolah, ibu bapa dan rakan strategik yang menyokong perjalanan sepuluh tahun SRITI Selangor. Semoga sambutan ini menjadi titik tolak kepada dekad seterusnya.</p>
+    <p class="eyebrow" style="margin-top:26px">Tempat Majlis</p>
+    <div class="rakan" style="margin-top:10px">
       <img src="aset/logo_tbg.jpg" alt="TBG Mall, Terminal Bersepadu Gombak">
       <img src="aset/logo_elissa.jpg" alt="Elissa Garden">
     </div>
-    <span class="mukasurat">— 8 —</span>
+    <span class="mukasurat">— 7 —</span>
   </section>
 
   <!-- KULIT BELAKANG -->
